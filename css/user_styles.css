@@ -1,0 +1,44 @@
+/* 
+=======================
+HEADER STYLES FOR PAGE
+=======================
+*/
+
+.center{
+	text-align: center;
+	margin: auto;
+}
+
+.row.full-width {
+  width: 100%;
+  max-width: 100%; 
+}
+
+.header{
+	background-image: url('../img/grid_02.jpg');
+	background-repeat: repeat-x;
+}
+
+h1{
+	font-family: 'Righteous', cursive;
+	font-size: 5em;
+}
+
+.banner-text{
+	margin: 10% auto;
+}
+
+h2{
+	font-family: 'Signika', sans-serif;
+}
+
+
+
+/* This code is for test purposes only */
+
+.circle{
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	border-radius: 100%;
+}
