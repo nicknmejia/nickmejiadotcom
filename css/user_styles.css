@@ -1,3 +1,20 @@
+
+/* 
+=======================
+GENERAL STYLES
+=======================
+*/
+
+.bottom-border{
+	border-bottom: 1px black solid;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.margins{
+	margin-top: 60px;
+}
+
 /* 
 =======================
 HEADER STYLES FOR PAGE
@@ -32,6 +49,12 @@ h2{
 	font-family: 'Signika', sans-serif;
 }
 
+/* 
+=======================
+STYLES FOR WORK SECTION
+=======================
+*/
+
 
 
 /* This code is for test purposes only */
@@ -42,3 +65,5 @@ h2{
 	background-color: red;
 	border-radius: 100%;
 }
+
+
