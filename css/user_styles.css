@@ -15,6 +15,13 @@ GENERAL STYLES
 	margin-top: 60px;
 }
 
+.height{
+	height: 40px;
+}
+
+.send-to-back{
+	z-index: -1;
+}
 /* 
 =======================
 HEADER STYLES FOR PAGE
@@ -26,7 +33,7 @@ HEADER STYLES FOR PAGE
 	margin: auto;
 }
 
-.row.full-width {
+.full-width, .row.full-width {
   width: 100%;
   max-width: 100%; 
 }
@@ -49,21 +56,65 @@ h2{
 	font-family: 'Signika', sans-serif;
 }
 
+.icon-bar{
+	box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.5);
+}
+
 /* 
 =======================
 STYLES FOR WORK SECTION
 =======================
 */
 
-
-
-/* This code is for test purposes only */
-
 .circle{
 	width: 300px;
 	height: 300px;
-	background-color: red;
+	background-image: url("../img/colorama2.jpg");
 	border-radius: 100%;
+	background-size: auto;
+	border: 5px #9bd2a1 solid;
 }
+
+.image{
+	width: 260px;
+	height: 185px;
+}
+
+#slightly{
+	background-image: url("../img/slightly.png");
+}
+
+#chrisdel{
+	background-image: url("../img/chrisdel.png");
+}
+
+#bristle{
+	background-image: url("../img/bristle.jpg");
+}
+
+/* 
+=======================
+COLOR SWATCHES
+=======================
+*/
+
+#getty_1{color: #821c2f}
+#getty_2{color: #272832}
+#getty_3{color: #858a8a}
+#getty_4{color: #efe8bb}
+#getty_5{color: #2a7587}
+
+#beach_1{background-color: #86c5a5}
+#beach_2{background-color: #feec9e}
+#beach_3{background-color: #fa5656}
+#beach_4{background-color: #fdc34a}
+#beach_5{background-color: #9bd2a1}
+
+
+
+
+
+
+
 
 
